@@ -1,0 +1,40 @@
+.Product {
+  width: 300px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px #ccc;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.Product img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.Product .name {
+  font-size: 24px;
+  margin: 10px;
+}
+
+.Product .price {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.Product .btn {
+  background-color: #d4f1c7;
+  color: #55b152;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.Product .btn:hover {
+  background-color: #55b152;
+  color: #fff;
+}
